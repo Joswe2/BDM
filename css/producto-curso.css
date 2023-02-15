@@ -1,0 +1,33 @@
+.fondo-blurr {
+    /* The image used */
+    background-image: url("../img/laptopcurso.jpg");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card1:hover {
+    background: #ffd7d8;
+    border: 1px solid #ffcfd0;
+}
+
+.card1:hover .list-group-item {
+    background: #ffc9cb !important
+}
+
+
+.item-lista{
+    background-color: #5C4647;
+}
+
+.item-titulo{
+    color: white;
+}
+
+.bg-palette-3{
+    background-color: #5C4647;
+}
