@@ -71,155 +71,110 @@
 
     <!-- Contenido princpial -->
     <div class="container d-flex justify-content-center">
-        <br/>
-        <br/>
-        <h1 class="mt-4">Tus cursos</h1>
+        <br />
+        <br />
+        <h1 class="mt-4">Categorias de cursos</h1>
         <br />
     </div>
 
-    <!-- Filtro -->
-    <br />
-    <div class="container d-flex justify-content-center">
-        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-            <div class="btn-group me-2" role="group" aria-label="First group">
-                <span class="me-2 mt-1">Inscripcion:  </span>
-                <input id="startDate" class="form-control" type="date" />
-            </div>
-            <div class="btn-group me-2" role="group" aria-label="First group">
-                <span class="me-2 mt-1">-  </span>
-                <input id="endDate" class="form-control" type="date" />
-            </div>
-            <div class="btn-group me-2" role="group" aria-label="Second group">
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Progreso</option>
-                    <option value="1">Todos</option>
-                    <option value="2">Terminados</option>
-                </select>
-            </div>
-            
-            <div class="btn-group me-2" role="group" aria-label="Third group">
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Categoria</option>
-                    <option value="1">Yoga</option>
-                    <option value="2">Programacion</option>
-                    <option value="3">Negocios</option>
-                </select>
-            </div>
-            <div class="btn-group me-2" role="group" aria-label="Fourth group">
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Estatus</option>
-                    <option value="1">Todos</option>
-                    <option value="2">Activos</option>
-                </select>
-            </div>
-
-            <div class="btn-group me-2" role="group" aria-label="Fourth group">
-                <button type="button" class="btn btn-dark">Buscar</button>
-            </div>
-        </div>
-        <br />
-    </div>
-    <br />
-    <!-- Lista de cursos -->
     <div class="container">
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col">
-                <div class="card">
-                    <img src="./img/bdm.png" class="card-img-top" alt="Hollywood Sign on The Hill" />
-                    <div class="card-body">
-                        <h5 class="card-title">Bases de datos multimedia</h5>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <p class="card-text">
-                            Fecha de inscripcion: <b>05/01/2023</b>
-                        </p>
-                        <p class="card-text">
-                            Ultimo dia de estudio: <b>06/01/2023</b>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="./img/yoga.jpg" class="card-img-top" alt="Hollywood Sign on The Hill" />
-                    <div class="card-body">
-                        <h5 class="card-title">Mindfulness y yoga</h5>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <p class="card-text">
-                            Fecha de inscripcion: <b>1/01/2022</b>
-                        </p>
-                        <p class="card-text">
-                            Ultimo dia de estudio: <b>1/01/2023</b>
-                        </p>
-                        <p class="card-text">
-                            Fecha de finalizacion: <b>1/01/2023</b>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="./img/csharp.jpg" class="card-img-top" alt="Hollywood Sign on The Hill" />
-                    <div class="card-body">
-                        <h5 class="card-title">C# de cero a heroe</h5>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <p class="card-text">
-                            Fecha de inscripcion: <b>1/01/2022</b>
-                        </p>
-                        <p class="card-text">
-                            Ultimo dia de estudio: <b>1/01/2023</b>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="./img/negocios.jpg" class="card-img-top" alt="Hollywood Sign on The Hill" />
-                    <div class="card-body">
-                        <h5 class="card-title">Administración de negocios profesional</h5>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <p class="card-text">
-                            Fecha de inscripcion: <b>1/01/2022</b>
-                        </p>
-                        <p class="card-text">
-                            Ultimo dia de estudio: <b>1/01/2023</b>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="./img/ue4.png" class="card-img-top" alt="Hollywood Sign on The Hill" />
-                    <div class="card-body">
-                        <h5 class="card-title">Desarrollo de videojuegos con Unreal Engine 5</h5>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <p class="card-text">
-                            Fecha de inscripcion: <b>1/01/2022</b>
-                        </p>
-                        <p class="card-text">
-                            Ultimo dia de estudio: <b>1/01/2023</b>
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div class="container px-4" id="custom-cards">
 
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image:
+                linear-gradient(to bottom, rgba(0, 252, 46, 0.52), rgba(0, 0, 0, 0.53)),
+                url('./img/yoga.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <div class="strokeme">
+                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1">Meditación</h2>
+                            </div>
+                            <ul class="d-flex list-unstyled mt-auto">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image:
+                linear-gradient(to bottom, rgba(255, 0, 0, 0.52), rgba(0, 0, 0, 0.03)),
+                url('./img/csharp.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 stroketext">Programación</h4>
+                            <ul class="d-flex list-unstyled mt-auto">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image:
+                linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.03)),
+                url('./img/campo.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1">Negocios</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image:
+                linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.03)),
+                url('./img/pato.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1">Desarrollo</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image:
+                linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.03)),
+                url('./img/laptopcurso.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1">Yoga</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image:
+                linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.03)),
+                url('./img/bdm.png');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1">Diseño grafico</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image:
+                linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.03)),
+                url('./img/paleta.png');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1">Adminsitracion</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
-
 
 
     <!-- Footer -->
