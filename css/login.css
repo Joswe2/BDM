@@ -84,18 +84,22 @@ form.sign-up-form{
 .input-field{
     max-width: 300px;
     width: 100%;
-    height: 55px;
+    height: 45px;
     background-color: #f0f0f0;
-    margin: 10px 0;
+    margin: 6px 0;
     border-radius: 55px;
     display: grid;
     grid-template-columns: 15% 85%;
     padding: 0 .4rem;
 }
 
+.input-field2{
+    max-width: 300px;
+}
+
 .input-field i{
     text-align: center;
-    line-height: 55px;
+    line-height: 45px;
     color: #acacac;
     font-size: 1.1rem;
 }

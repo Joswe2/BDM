@@ -29,13 +29,7 @@
                         <input id="password2" type="password" placeholder="Constraseña" name="password">
                     </div>
                     <input type="submit" value="Aceptar" name="" id="" class="btn solid">
-                    <p class="social-text">O ingresa con...</p>
-                    <div class="social-media">
-                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    
                 </form>
                 
                 <form method="POST" action="./php/register.php"  id="registro" class="sign-up-form" >
@@ -64,7 +58,7 @@
                     </div>
                     <div class="input-field2" style="padding-bottom: 3px;">
                         <select name="sexo" id="sexo" class="form-select" aria-label="Default select example">
-                            <option selected>Sexo</option>
+                            <option selected>Genero</option>
                             <option value="1">Masculino</option>
                             <option value="2">Femenino</option>
                         </select>
@@ -72,15 +66,16 @@
                     <div class="input-field2">
                         <select name="rol" id="rol" class="form-select" aria-label="Default select example">
                             <option selected>¿Como te quieres registrar?</option>
-                            <option value="1">Comprador</option>
-                            <option value="2">Vendedor</option>
+                            <option value="1">Estudiante</option>
+                            <option value="2">Instructor</option>
                           </select>
                     </div>
                     <div class="input-field2">
-                        <input class="form-check-input" type="checkbox" value="privado" id="flexCheckDefault" name="privado">
                         <label class="form-check-label" for="flexCheckDefault">
-                            Cuenta privada
+                            Foto de perfil
                         </label>
+                        <input type="file" name="foto" id="foto">
+                        
                     </div>
                     <input type="submit" value="Aceptar" class="btn solid">
                 </form>
@@ -91,7 +86,7 @@
             <div class="panel left-panel">
                 <div class="content">
                     <img src="./img/productos2/logoshop.png" width="100px" alt="">
-                    <h2>Boutlig</h2>
+                    <h2>Studee</h2>
                     <h3>¿Nuevo aqui?</h3>
                     <p>Registrate en nuestro sistema</p>
                     <button class="btn transparent" id="sign-up-btn">Registrate</button>
@@ -104,7 +99,7 @@
             <div class="panel right-panel">
                 <div class="content">
                     <img src="./img/productos2/logoshop.png" width="100px" alt="">
-                    <h2>Boutlig</h2>
+                    <h2>Studee</h2>
                     <h3>¿Ya tienes cuenta?</h3>
                     <p>Ingresa a nuestro sistema con tu cuenta y usuario</p>
                     <button class="btn transparent" id="sign-in-btn">Ingresa</button>
